@@ -1,0 +1,9 @@
+.frame {
+	border: 2px solid green;
+	width: 200px;
+	padding: 20px;
+	margin-top: 10px;
+}
+#result {
+	padding-top: 10px;
+}

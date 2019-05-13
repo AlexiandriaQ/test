@@ -1,0 +1,20 @@
+
+.frame {
+	border: 2px solid green;
+	width: 200px;
+	padding: 20px;
+}
+.one {
+	padding-bottom: 10px;
+}
+.two {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.conclution {
+	padding-bottom: 10px;
+}
+#clear {
+	display: inline;
+	padding-left: 150px;
+}
