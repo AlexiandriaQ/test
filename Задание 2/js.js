@@ -12,6 +12,8 @@ function check() {
 	x = Number(a[1]); // присваиваем число из массива а
 	console.log(a,' ',x,' ',z,' ',y);
 
+if ((a[1]<=8) && (a[1]>=1) && ( ((a[0].charCodeAt(0)>=65) && (a[0].charCodeAt(0)<=72)) || ((a[0].charCodeAt(0)>=97) && (a[0].charCodeAt(0)<=104)) ))
+{
 
 
 x1 = x + 1;
@@ -66,5 +68,8 @@ if (x4 >= 1 && x4 <= 8){
 		res = res + word[y2] + x4 + " " ;
 	}
 }
+	
+}
 document.getElementById('result').innerHTML = res;
+	res = '';
 }
